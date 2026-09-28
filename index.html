@@ -507,10 +507,11 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
 }
 /* Mobile hero order: título → foto → texto → botões → infos */
 @media (max-width:960px){
+  .hero{padding-top:106px}
   .hero-grid{display:flex;flex-direction:column;align-items:stretch;gap:0}
   .hero-copy{display:contents}
   .hero-eyebrow{display:none}
-  .hero-title{order:1;margin:0 0 32px}
+  .hero .hero-title{order:1;margin:0 0 28px}
   .hero .portrait-wrap{order:2;margin:0 auto 36px}
   .hero-lead{order:3}
   .hero-btns{order:4;margin-top:28px}
